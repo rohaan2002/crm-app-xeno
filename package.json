@@ -1,0 +1,22 @@
+{
+  "name": "crm-app-xeno",
+  "version": "1.0.0",
+  "description": "a mini-crm app i'm coding for xeno. has features like adding audience based on rules, delivering them messages and updating the status in communication log.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "start": "node backend/server.js"
+  },
+  "type": "module",
+  "author": "rohan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
